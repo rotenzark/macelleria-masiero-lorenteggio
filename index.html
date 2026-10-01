@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte sul foglio c'è il pezzo senza spago; se il codice non arriva, dopo 2,5 s è legato (stato finale) */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaLegatura=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,63 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700&amp;family=Hind+Madurai:wght@500;600;700&amp;family=Send+Flowers&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ButcherShop","name":"Macelleria Masiero","legalName":"Masiero Alessio","vatID":"IT09739790153","description":"Macelleria in Largo Brasilia 4 a Milano: la carne al banco, le preparazioni fatte da loro e una dispensa di specialità regionali.","url":"https://rotenzark.github.io/macelleria-masiero-lorenteggio/","image":"https://rotenzark.github.io/macelleria-masiero-lorenteggio/img/og.jpg","telephone":"+39 02 4830 1702","address":{"@type":"PostalAddress","streetAddress":"Largo Brasilia 4","postalCode":"20146","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.45139,"longitude":9.13586},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"13:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"15:30","closes":"19:30"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"75","bestRating":"5"}}
+{
+  "@context": "https://schema.org",
+  "@type": "ButcherShop",
+  "name": "Macelleria Masiero",
+  "legalName": "Masiero Alessio",
+  "vatID": "IT09739790153",
+  "description": "Macelleria in Largo Brasilia 4 a Milano: la carne al banco, le preparazioni fatte da loro e una dispensa di specialità regionali.",
+  "url": "https://rotenzark.github.io/macelleria-masiero-lorenteggio/",
+  "image": "https://rotenzark.github.io/macelleria-masiero-lorenteggio/img/og.jpg",
+  "telephone": "+39 02 4830 1702",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Largo Brasilia 4",
+    "postalCode": "20146",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.45139,
+    "longitude": 9.13586
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "13:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "15:30",
+      "closes": "19:30"
+    }
+  ]
+}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -243,12 +292,12 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       <p class="voto"><b class="voto__n">4,7</b> <span class="voto__su" data-i18n="d.google">su Google, 75 recensioni</span></p>
     </div>
     <ul class="recensioni">
-      <li class="recensione reveal"><p class="recensione__testo">«Macelleria con carne di qualità piemontese eccellente e garantita. Da apprezzare il fatto che Alessio si rifornisce di prodotti come pasta, sughi, vini, dolci e formaggi assolutamente unici e ricercati e che non si trovano da nessun&#39;altra parte a Milano.<br>Cotechini e insalata russa superlativi!»</p><p class="recensione__chi"><b>G Q</b> <span data-i18n="d.g6a">Google, 6 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Un piccolo negozio dove la professionalità è un valore tramandato. Tanti consigli positivi sia sui tagli di carne sia sul modo di cucinarli. Molti prodotti di nicchia.»</p><p class="recensione__chi"><b>Gabriella Dell&#39;Elice</b> <span data-i18n="d.g1a">Google, un anno fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Ho preso un pezzo di roastbeef da fare al barbecue, davvero uno spettacolo, morbidissima, marezzata, un sapore perfetto, difficile trovare tagli di questo tipo morbidi... consigliato al 100%»</p><p class="recensione__chi"><b>Riccardo Sacchi</b> <span data-i18n="d.g3a">Google, 3 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Molta scelta macellaio molto competente e gentile, carne ottima, arrotolati fatti al momento molto gustosi. Ribadisco dopo mesi carne da favola!!!»</p><p class="recensione__chi"><b>marco mascio</b> <span data-i18n="d.g3a">Google, 3 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Gentilezza, professionalità ed ottimi prodotti, non solo di macelleria, ma anche sfiziosita&#39; regionali (sottoli e sughi pugliesi, specialità campane, padane, emiliane, piemontesi, venete, liguri...in una sinfonia di piaceri per il palato. <span class="taglio">[…]</span> Consigliatissimo!»</p><p class="recensione__chi"><b>claudia imposimato</b> <span data-i18n="d.g8m">Google, 8 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«La carne é davvero ottima ,in negozio mi hanno piacevolmente stupito anche molti altri prodotti di qualitá . Alessio il proprietario é davvero un bravissimo professionista.»</p><p class="recensione__chi"><b>Fabio Sioli</b> <span data-i18n="d.g6m">Google, 6 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Macelleria con carne di qualità piemontese eccellente e garantita. Da apprezzare il fatto che Alessio si rifornisce di prodotti come pasta, sughi, vini, dolci e formaggi assolutamente unici e ricercati e che non si trovano da nessun&#39;altra parte a Milano.<br>Cotechini e insalata russa superlativi!»</p><p class="recensione__chi"><b>G Q</b> <span data-i18n="d.g6a">Google, 6 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Un piccolo negozio dove la professionalità è un valore tramandato. Tanti consigli positivi sia sui tagli di carne sia sul modo di cucinarli. Molti prodotti di nicchia.»</p><p class="recensione__chi"><b>Gabriella Dell&#39;Elice</b> <span data-i18n="d.g1a">Google, un anno fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Ho preso un pezzo di roastbeef da fare al barbecue, davvero uno spettacolo, morbidissima, marezzata, un sapore perfetto, difficile trovare tagli di questo tipo morbidi... consigliato al 100%»</p><p class="recensione__chi"><b>Riccardo Sacchi</b> <span data-i18n="d.g3a">Google, 3 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Molta scelta macellaio molto competente e gentile, carne ottima, arrotolati fatti al momento molto gustosi. Ribadisco dopo mesi carne da favola!!!»</p><p class="recensione__chi"><b>marco mascio</b> <span data-i18n="d.g3a">Google, 3 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Gentilezza, professionalità ed ottimi prodotti, non solo di macelleria, ma anche sfiziosita&#39; regionali (sottoli e sughi pugliesi, specialità campane, padane, emiliane, piemontesi, venete, liguri...in una sinfonia di piaceri per il palato. <span class="taglio">[…]</span> Consigliatissimo!»</p><p class="recensione__chi"><b>claudia imposimato</b> <span data-i18n="d.g8m">Google, 8 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«La carne é davvero ottima ,in negozio mi hanno piacevolmente stupito anche molti altri prodotti di qualitá . Alessio il proprietario é davvero un bravissimo professionista.»</p><p class="recensione__chi"><b>Fabio Sioli</b> <span data-i18n="d.g6m">Google, 6 mesi fa</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte. Anche la frase in alto viene da una recensione su Google.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Masiero+Alessio%2C+Largo+Brasilia+4%2C+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
   </section>
@@ -274,7 +323,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       </div>
       <div class="dove">
         <div class="cartina reveal">
-          <iframe title="Mappa: Macelleria Masiero, Largo Brasilia 4, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Masiero%20Alessio%2C%20Largo%20Brasilia%204%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="mappa-clic" data-mappa-clic style="--mappa-h: 400px"><template><iframe title="Mappa: Macelleria Masiero, Largo Brasilia 4, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Masiero%20Alessio%2C%20Largo%20Brasilia%204%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Masiero+Alessio%2C+Largo+Brasilia+4%2C+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
         </div>
         <dl class="indirizzo">
           <div><dt data-i18n="o.dove">Dove</dt><dd data-i18n="o.dovev">Largo Brasilia 4, 20146 Milano, fra Via Giambellino e Via Lorenteggio</dd></div>
@@ -309,7 +358,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="piede__dove">Largo Brasilia 4, 20146 Milano · <a href="tel:+390248301702" class="intero">02 4830 1702</a></p>
     <p class="piede__orario" data-i18n="f2.orario">Martedì–sabato 8–13:30 e 15:30–19:30 · lunedì 8–13:30 · domenica chiuso</p>
     <p class="piede__legale">Masiero Alessio · P.IVA 09739790153</p>
-    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · le foto sono di un cliente, dalla loro scheda Google; orari, cartelli e recensioni da Google (settembre 2026). La legatura l&#39;abbiamo disegnata noi.</p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · le foto sono di un cliente, dalla loro scheda Google; orari, cartelli e recensioni da Google (settembre 2026). La legatura l&#39;abbiamo disegnata noi.</p>
     <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
   </div>
 </footer>
@@ -324,5 +373,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
